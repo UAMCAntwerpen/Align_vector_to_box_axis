@@ -7,7 +7,8 @@ Usage:
 $ ./align_vector_to_box_axis.py [-h] -f GRO -n NDX -g1 GROUP1 -g2 GROUP2 [--axis {x,y,z}] [-gc GROUP_CENTER]
                                    [--center-target CENTER_TARGET] -o OUTPUT
 
-options:
+OPTIONS:
+
 ```bash
   -h, --help            show this help message and exit
   -f GRO, --gro GRO     Input .gro file
