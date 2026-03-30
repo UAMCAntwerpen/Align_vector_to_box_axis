@@ -8,6 +8,7 @@ $ ./align_vector_to_box_axis.py [-h] -f GRO -n NDX -g1 GROUP1 -g2 GROUP2 [--axis
                                    [--center-target CENTER_TARGET] -o OUTPUT
 
 options:
+```bash
   -h, --help            show this help message and exit
   -f GRO, --gro GRO     Input .gro file
   -n NDX, --ndx NDX     Input .ndx file
@@ -22,4 +23,5 @@ options:
                         Target position for third-group COM: "box", "origin", or "x,y,z" in nm
   -o OUTPUT, --output OUTPUT
                         Output rotated .gro file
-                        
+```
+               
